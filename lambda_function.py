@@ -1,5 +1,5 @@
-import onnxruntime as ort
-from keras_image_helper import create_preprocessor
+import onnxruntime as ort # type: ignore
+from keras_image_helper import create_preprocessor # type: ignore
 
 preprocessor = create_preprocessor("xception", target_size=(299, 299))
 
